@@ -1,0 +1,63 @@
+body {
+  /* margin-top: 500px; */
+  color: white;
+  font-weight:bolder;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #282c34;
+  text-align: center;
+  justify-content: center;
+  /* background-image: url('https://e1.pxfuel.com/desktop-wallpaper/668/166/desktop-wallpaper-beautiful-sunny-day-best-beautiful-sunny-day-day.jpg'); */
+}
+.data-showcase {
+  display: flex;
+  flex: 1;
+  margin: 15px;
+  background-color: rgb(90, 75, 104);
+  border-radius: 8px;
+  padding: 9px;
+  text-align: center;
+  justify-content: center;
+}
+.data-showcase .cityphoto {
+  flex: .4;
+  margin-right: 5px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: rgb(31, 127, 210);
+}
+.data-showcase .ciytdata {
+  flex: .6;
+  border: 2px solid black;
+  background-color: rgb(127, 42, 42);
+  border-radius: 6px;
+  padding: 1px;
+  text-align: center;
+}
+.form-data {
+  padding-bottom: 15px;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  right: 250px;
+  font-size: larger;
+  width: 50%;
+  margin-left: 21%;
+}
+.big-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: rgb(39, 39, 250);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.big-button:hover {
+  background-color: rgb(25, 205, 19);
+}
